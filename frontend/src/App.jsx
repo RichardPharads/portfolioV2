@@ -9,10 +9,10 @@ function App() {
     
     <div className='font-[Roboto] '>
       <Navbar/>
-      <div className='w-[362px] m-auto grid gap-16 '>
+      <div className='px-4'>
       <Hero/>
-      <About/>
-      <Education/>
+      {/* <About/>
+      <Education/> */}
       </div>
     </div>
   )
