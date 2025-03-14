@@ -1,4 +1,4 @@
-import Elementary from '../assets/Elementary.png'
+import elementary from '../assets/elementary.png'
 import College from '../assets/college.png'
 import highschool from '../assets/PedroE.png'
 const data = [
@@ -14,7 +14,7 @@ const data = [
          "level": "Primary",
          "school": "Bagong Nayon lV - Elementary School",
          "year": "2016",
-         "image": Elementary
+         "image": elementary
      },
     {
        "id": 2,
