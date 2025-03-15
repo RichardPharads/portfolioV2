@@ -6,12 +6,12 @@ import instagram from '../assets/instagram.png'
 
 function Hero() {
   return (
-    <div className='py-8 px-6 rounded-3xl bg-[#212121] hover:bg-[#2b2b2b] duration-400 mt-36'>
-        <h1 className='text-4xl text-center font-light '>UI/UX and Fullstack Developer</h1>
-        <div className='flex justify-between flex-col-reverse gap-10'>
+    <div className='m-auto w-fit text-center rounded-3xl bg-[#212121] hover:bg-[#2b2b2b] duration-400 mt-36 py-5 px-[1.2rem]'>
+        <h1 className='text-2xl m-auto w-fit font-light min-w-0 max-w-[290px] '>UI/UX and Fullstack Developer</h1>
+        <div className='flex justify-center flex-wrap-reverse'>
 
-            <div className='flex flex-col justify-between gap-8 items-center'>
-                <h3 className='text-[13px] font-light text-center max-w-[200px] text-[#A2A1A1]'>Hi , my name is Richard , Aspiring Full-Stack Developer in the Philippines</h3>
+            <div className='flex flex-col justify-between gap-8 '>
+                <h3 className='text-[13px] font-light  max-w-[200px] text-[#A2A1A1]'>Hi , my name is Richard , Aspiring Full-Stack Developer in the Philippines</h3>
                 
                     <ul className='flex justify-center *:w-6 *:h-6 gap-2'>
                         <img src={github} alt="" />

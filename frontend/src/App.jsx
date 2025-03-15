@@ -7,12 +7,12 @@ import Education from './Components/Education'
 function App() {
   return (
     
-    <div className='font-[Roboto] '>
+    <div className='font-[Roboto]  border bg-primary text-white'>
       <Navbar/>
-      <div className='px-4'>
+      <div className='px-[10%]'>
       <Hero/>
-      {/* <About/>
-      <Education/> */}
+      <About/>
+      {/* <Education/>  */}
       </div>
     </div>
   )
